@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 
+//B1 changes
 app.get('/', (req, res)=>{
     res.send('Hostname is:' + req.hostname );
     res.end;
