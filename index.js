@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 
+//Define get method
 app.get('/', (req, res)=>{
     res.send('Hostname is:' + req.hostname );
     res.end;
